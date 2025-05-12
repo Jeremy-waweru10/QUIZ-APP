@@ -1,12 +1,60 @@
-# React + Vite
+# Interactive Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and feature-rich web-based quiz application built using React, JavaScript, and HTML. This project is designed for students, trivia lovers, and anyone looking to test and improve their knowledge across various categories and difficulty levels.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Multiple choice quiz questions
+- Custom quiz settings (category, difficulty, number of questions)
+- Countdown timer for each quiz
+- Instant feedback (correct/incorrect indicators)
+- Final score summary with detailed results
+- Responsive layout for all screen sizes
+- Optional local leaderboard with top scores
+- API integration using Open Trivia DB
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔗 Acknowledgements
+
+- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+- [How to write a Good README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+---
+
+## 📡 API Reference
+
+This project uses the [Open Trivia DB API](https://opentdb.com/api_config.php) to fetch quiz questions.
+
+### Get Questions
+
+```http
+GET https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple
+
+## 1.Clone the project
+git clone https://github.com/your-username/quiz-app
+
+2.Navigate to the project directory      
+cd quiz-app
+
+3.Install project dependencies
+npm install
+
+4. Start the development server
+npm start
+
+5.Deployment 
+npm run deploy
+
+👤 Author
+Jeremy Waweru
+https://github.com/Jeremy-waweru10
+
+Appendix
+1.Built using React functional components and Hooks
+2.State managed via Context API
+3.Questions fetched from Open Trivia DB API
+4.Designed for accessibility and responsiveness
